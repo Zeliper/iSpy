@@ -56,9 +56,7 @@
   <Import Project="$(WixTargetsPath)" Condition=" '$(WixTargetsPath)' != '' " />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets" Condition=" '$(WixTargetsPath)' == '' AND Exists('$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets') " />
   <PropertyGroup>
-    <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
-    call "$(SolutionDir)signing\Wix_iSpy$(PlatformName)Setup.bat"
-)</PostBuildEvent>
+    <PostBuildEvent />
   </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.
