@@ -1,5 +1,5 @@
 <details>
-<summary>접기/펼치기 버튼</summary>
+<summary>Original README.md</summary>
 <div markdown="1">
 
 # 개요
@@ -49,3 +49,9 @@ If you have dll reference errors when building you may need to go into the DLLS 
 
 </div>
 </details>
+
+## 컴파일 설정
+
+> #### Requirement
+>> 1.Visual Studio 2019
+>> [Wix Toolset 3.11](http://wixtoolset.org/)
